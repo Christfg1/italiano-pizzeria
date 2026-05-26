@@ -1,4 +1,4 @@
 package com.italianopizzeria.interfaces;
 
-public class Priceable {
+public interface Priceable {
 }
