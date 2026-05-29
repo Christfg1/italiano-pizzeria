@@ -22,7 +22,7 @@ public class CheckOutScreen {
     public void display() {
         Order order = orderManager.getCurrentOrder();
 
-        TextFormatter.printTitle("CHECKOUT");
+        TextFormatter.printScreenHeader("CHECKOUT");
 
         if (order == null || order.getProducts().isEmpty()) {
             System.out.println(ConsoleColors.RED + "No items in this order." + ConsoleColors.RESET);

@@ -18,7 +18,7 @@ public class OrderScreen {
         boolean ordering = true;
 
         while (ordering) {
-            TextFormatter.printTitle("ORDER MENU" );
+            TextFormatter.printScreenHeader("ORDER MENU");
 
             System.out.println("1) Add Pizza \uD83C\uDF55"   );
             System.out.println("2) Add Drink \uD83E\uDD64" );

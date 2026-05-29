@@ -75,4 +75,8 @@ public class TextFormatter {
             System.out.println(ConsoleColors.RED + "Error loading pizza ASCII art." + ConsoleColors.RESET);
         }
     }
+    public static void printScreenHeader(String title) {
+        printLogo();
+        printTitle(title);
+    }
 }
