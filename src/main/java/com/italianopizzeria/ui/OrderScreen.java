@@ -18,12 +18,12 @@ public class OrderScreen {
         boolean ordering = true;
 
         while (ordering) {
-            TextFormatter.printTitle("ORDER MENU");
+            TextFormatter.printTitle("ORDER MENU" );
 
-            System.out.println("1) Add Pizza");
-            System.out.println("2) Add Drink");
-            System.out.println("3) Add Garlic Knots");
-            System.out.println("4) Checkout");
+            System.out.println("1) Add Pizza \uD83C\uDF55"   );
+            System.out.println("2) Add Drink \uD83E\uDD64" );
+            System.out.println("3) Add Garlic Knots \uD83E\uDDC4");
+            System.out.println("4) Checkout \uD83E\uDDFE");
             System.out.println("0) Cancel Order");
 
             int choice = ConsoleHelper.readInt("Choose an option: ");
